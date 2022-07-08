@@ -1,0 +1,275 @@
+.wealthsip {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.wealthsipinfos {
+  
+  width: 44%;
+  height: auto;
+  
+}
+
+.wealthsipinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #604fb2;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  /* margin-top: 45px; */
+}
+
+.wealthsipinfomain{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.wealthsipinfomain>h1{
+  font-size: 25px;
+}
+
+.wealthsipinfomain>h2{
+  font-size: 23.5px;
+}
+
+.wealthsipinfomain>button{
+  outline: none;
+  border: none;
+
+  height:40px;
+  background-color:#604fb2 ;
+  padding:4px 30px 4px 30px;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.wealthsipinfo-title > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.wealthsipinfo-title > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.wealthsipinfo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.wealthsipinput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 50%;
+  height: 90%;
+}
+
+.wealthsipheading {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.wealthsipslider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 5px;
+}
+
+.wealthsipinfo-title-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wealthsipinfo-title-text-sub {
+  
+  background-color: #ede5fa;
+  width: 100px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  align-items: center;
+}
+
+.wealthsipinfo-title-text-sub input{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  text-align: right;
+}
+.wealthsipinfo-title-text-sub span{
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.wealthsipinfo-title-text > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1030px) {
+  .wealthsipinfomain>h1{
+    font-size: 22px;
+  }
+
+ 
+  
+
+  
+}
+
+@media screen and (max-width: 900px) {
+ .wealthsip{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+ }
+
+ .wealthsipinput{
+    width: 90%;
+ }
+
+ .wealthsipheading{
+   width: 100%;
+ }
+
+ .wealthsipinfos{
+    width: 90%;
+ }
+  
+}
+
+
+@media screen and (max-width : 600px) {
+  .wealthsipinfo{
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .wealthsipinfo-title > h1 {
+   
+    font-size: 14px;
+  
+   
+  }
+  
+}
+@media screen and (max-width: 470px) {
+  .wealthsipinfo-title > h1 {
+  
+    font-size: 17px;
+  width:35%;
+    
+  }
+  .wealthsipinfo-title > h2 {
+  
+    font-size: 17px;
+ 
+    
+  }
+  .wealthsipheading{
+    font-size: 18px;
+  }
+  .wealthsipinfomain>h1{
+    font-size: 18px;
+  }
+  
+  .wealthsipinfomain>h2{
+    font-size: 20px;
+  }
+  
+  .wealthsipinfomain>button{
+ 
+    font-size: 18px;
+    
+  }
+  
+  .wealthsipinfo-title > h1 {
+   
+    font-size: 18px;
+  
+   
+  }
+
+  .wealthsipinfo-title-text > h1 {
+ 
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .wealthsipinfo-title > h1 {
+  
+    font-size: 15px;
+  
+    
+  }
+  .wealthsipinfo-title > h2 {
+  
+    font-size: 16px;
+ 
+    
+  }
+  .wealthsipheading{
+    font-size: 17px;
+  }
+  .wealthsipinfomain>h1{
+    font-size: 16px;
+  }
+  
+  .wealthsipinfomain>h2{
+    font-size: 18px;
+  }
+  
+  .wealthsipinfomain>button{
+ 
+    font-size: 17px;
+    
+  }
+  
+  
+ 
+ 
+  .wealthsipinfo-title-text > h1 {
+ 
+    font-size: 15px;
+  }
+}

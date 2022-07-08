@@ -1,0 +1,242 @@
+.emi {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.emiinfos {
+ 
+  border-radius: 22px;
+  width: 44%;
+  height: auto;
+  
+}
+
+.emiinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #604fb2;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  /* margin-top: 45px; */
+}
+
+.emiinfomain{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.emiinfomain>h1{
+  font-size: 25px;
+}
+
+.emiinfomain>h2{
+  font-size: 23.5px;
+}
+
+.emiinfomain>button{
+  outline: none;
+  border: none;
+  width: 140px;
+  height:40px;
+  background-color:#604fb2 ;
+  padding:4px 5px 4px 5px;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.emiinfo-title > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.emiinfo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.emiinput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 50%;
+  height: 90%;
+}
+
+.emiheading {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.emislider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 5px;
+}
+
+.emiinfo-title-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emiinfo-title-text-sub {
+
+  background-color: #ede5fa;
+  width: 100px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  align-items: center;
+  
+}
+.emiinfo-title-text-sub input{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  text-align: right;
+}
+
+.emiinfo-title-text > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1030px) {
+  .emiinfomain>h1{
+    font-size: 22px;
+  }
+  
+
+  
+}
+
+@media screen and (max-width: 900px) {
+ .emi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+ }
+
+ .emiinput{
+    width: 90%;
+ }
+
+ .emiheading{
+   width: 100%;
+ }
+
+ .emiinfos{
+    width: 90%;
+ }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .emiinfo{
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 470px) {
+  .emiheading{
+    font-size: 18px;
+  }
+  .emiinfomain>h1{
+    font-size: 18px;
+  }
+  
+  .emiinfomain>h2{
+    font-size: 20px;
+  }
+  
+  .emiinfomain>button{
+ 
+    font-size: 18px;
+    
+  }
+  
+  .emiinfo-title > h1 {
+   
+    font-size: 18px;
+  
+   
+  }
+ 
+
+  .emiinfo-title-text > h1 {
+ 
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .emiheading{
+    font-size: 17px;
+  }
+  .emiinfomain>h1{
+    font-size: 15.5px;
+  }
+  
+  .emiinfomain>h2{
+    font-size: 18px;
+  }
+  
+  .emiinfomain>button{
+ 
+    font-size: 17px;
+    
+  }
+  
+  .emiinfo-title > h1 {
+   
+    font-size: 17px;
+  
+   
+  }
+  .emiinfo-title-text > h1 {
+ 
+    font-size: 15px;
+  }
+  .emiinfo-title > h1 {
+  
+    font-size: 15px;
+  
+    
+  }
+}

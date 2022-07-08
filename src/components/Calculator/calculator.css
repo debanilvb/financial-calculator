@@ -1,0 +1,199 @@
+.calculator-parent{
+ 
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+
+
+.calculator-heading1{
+  
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  color: #101010;
+  text-align: center;
+
+}
+
+.pill-nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.pill-nav a {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 20px 15px;
+  width: 200px;
+  height: 200px;
+  border: none;
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+  background: transparent;
+  border: 1px solid #ecedef;
+  color: #fff;
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.19); */
+}
+
+.pill-nav a h3{
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 22px;
+  letter-spacing: .01em;
+  line-height: 1.3em;
+}
+
+.pill-nav a:nth-child(1){
+   background: rgb(39, 133, 106);
+}
+
+
+.pill-nav a:nth-child(2){
+
+  background-color: rgb(30, 50, 100);
+
+}
+
+
+.pill-nav a:nth-child(4){
+
+  background-color: rgb(232, 17, 91);
+
+}
+
+.pill-nav a:nth-child(5){
+
+  background-color: rgb(13, 115, 236);
+
+}
+
+.pill-nav a:nth-child(3){
+
+  background-color: rgb(141, 103, 171);
+
+}
+
+.pill-nav a:nth-child(6){
+
+  background-color: rgb(20, 138, 8);
+
+}
+
+.pill-nav a:nth-child(7){
+
+  background-color: rgb(175, 40, 150);
+
+}
+
+.pill-nav a:nth-child(8){
+
+  background-color: rgb(80, 155, 245);
+
+}
+
+
+
+.pill-nav a:nth-child(9){
+
+  background-color: rgb(186, 93, 7);
+
+}
+
+.pill-nav a:nth-child(10){
+
+  background-color: rgb(119, 119, 119);
+
+}
+
+
+.pill-nav a:nth-child(8){
+
+  background-color: rgb(80, 155, 245);
+
+}
+
+.pill-nav a:nth-child(8){
+
+  background-color: rgb(80, 155, 245);
+
+}
+
+.pill-nav a:nth-child(8){
+
+  background-color: rgb(80, 155, 245);
+
+}
+
+.pill-nav a:nth-child(8){
+
+  background-color: rgb(80, 155, 245);
+
+}
+
+.pill-nav a:nth-child(8){
+
+  background-color: rgb(80, 155, 245);
+
+}
+
+
+
+
+.pill-nav button:hover{
+  background: #604FB2;
+  
+}
+
+.pill-nav .active-pill{
+  /* background: #604FB2; */
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.19); */
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* Change the color of links on mouse-over */
+
+/* Add a color to the active/current link */
+/* .pill-nav button:active {
+  background-color: #ddd;
+  color: white;
+} */
+
+
+@media screen and (max-width: 600px) {
+
+  .calculator-heading1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .pill-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .pill-nav button{
+    margin-left: 0;
+    width: 240px;
+  }
+}

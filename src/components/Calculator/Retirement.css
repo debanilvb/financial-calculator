@@ -1,0 +1,351 @@
+.retirement {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  font-family: "Lato",sans-serif;
+}
+
+.retirementinfos {
+  background-color: rgb(30, 50, 100);
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 40%;
+  height: auto;
+  margin-top: 230px;
+  margin-bottom: 30px;
+}
+
+.retirementinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /* margin-top: 45px; */
+}
+
+.retirementinfo-title > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width:40%;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.retirementinfo-title > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.retirementinfo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.retirementinput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 50%;
+  height: 90%;
+}
+
+.retirementheading {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.input11,
+.input2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radiobuttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.retirementradiobutton {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* border: 1px solid black; */
+}
+.retirementradiobutton>div{
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  align-items: center;
+
+}
+.retirementradiobutton>div>label{
+  width:80%;
+  /* border: 1px solid blue; */
+  margin: 0;
+
+}
+.retirementradiobutton>div>input{
+  /* width:98%; */
+  border: 1px solid yellow;
+
+}
+
+.input11 > input,
+.input2 > input {
+  
+  margin-right: 35px;
+  background-color:#ede5fa;
+  width: 90px;
+  border-radius: 4px;
+  padding: 8px 11px;
+  border: none;
+  outline: none;
+  color: #4900d0;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.retirementslider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 5px;
+}
+
+.retirementinfo-title-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.retirementinfo-title-text-sub {
+  background-color: #ede5fa;
+  width: 100px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  align-items: center;
+}
+.retirementinfo-title-text-sub input{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  text-align: right;
+}
+.retirementinfo-title-text-sub span{
+  margin-left: 2px;
+}
+
+.retirementinfo-title-text > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1030px) {
+  .retirementinfoinfomain>h1{
+    font-size: 22px;
+  }
+  .retirementinfo-title > h1 {
+    
+    font-size: 18px;
+  width:40%;
+ 
+  }
+  
+  .retirementinfo-title > h2 {
+    
+    font-size: 18px;
+  
+
+  }
+  
+
+  
+}
+
+
+
+@media screen and (max-width: 900px) {
+ .retirementinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+ }
+ .retirementinput{
+    width: 90%;
+ }
+
+ .retirementinfos{
+    width: 90%;
+ }
+
+ .retirement{
+   display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .retirementinfoinput{
+    width: 90%;
+ }
+
+ .retirementinfoheading{
+   width: 100%;
+ }
+
+ .retirementinfoinfos{
+    width: 90%;
+ }
+  
+}
+@media screen and (max-width:600px) {
+  .retirementheading{
+    font-size: 17px;
+  }
+  .retirementinfos{
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .retirementinfo-title-text>h1{
+    font-size: 16px;
+    margin-right: 7px;
+  }
+}
+
+
+@media screen and (max-width: 470px) {
+  .retirementradiobutton>div>label{
+    width:100%;
+    font-size: 16px;
+  
+  }
+  .retirementinfo-title > h1 {
+    
+    font-size: 18px;
+  width:36%;
+ 
+  }
+  
+  .retirementinfo-title > h2 {
+    
+    font-size: 18px;
+  
+
+  }
+  .retirementinfoheading{
+    font-size: 18px;
+  }
+  .retirementinfoinfomain>h1{
+    font-size: 18px;
+  }
+  
+  .retirementinfoinfomain>h2{
+    font-size: 20px;
+  }
+  
+  .retirementinfoinfomain>button{
+ 
+    font-size: 18px;
+    
+  }
+  
+  .retirementinfoinfo-title > h1 {
+   
+    font-size: 18px;
+  
+   
+  }
+ 
+
+  .retirementinfoinfo-title-text > h1 {
+ 
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .retirementinfo-title > h1 {
+    
+    font-size: 16px;
+  width:31%;
+ 
+  }
+  
+  .retirementinfo-title > h2 {
+    
+    font-size: 16px;
+  
+
+  }
+  .retirementinfoheading{
+    font-size: 17px;
+  }
+  .retirementinfoinfomain>h1{
+    font-size: 15.5px;
+  }
+  
+  .retirementinfoinfomain>h2{
+    font-size: 18px;
+  }
+  
+  .retirementinfoinfomain>button{
+ 
+    font-size: 17px;
+    
+  }
+  
+  .retirementinfoinfo-title > h1 {
+   
+    font-size: 17px;
+  
+   
+  }
+  .retirementinfoinfo-title-text > h1 {
+ 
+    font-size: 15px;
+  }
+  .retirementinfoinfo-title > h1 {
+  
+    font-size: 15px;
+  
+    
+  }
+}

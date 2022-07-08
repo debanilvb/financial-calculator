@@ -1,0 +1,331 @@
+.goal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+.goalinfos {
+  background-color: rgb(141, 103, 171);
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 44%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.goalinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /* margin-top: 45px; */
+}
+
+.goalinfo-title>h1{
+  font-family: "Roboto";
+  width:65%;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 12px;
+  color: #ffffff;
+}
+.goalinfo-title>h2{
+  font-family: "Roboto";
+  
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.goalinfo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.goalinput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 50%;
+  height: 90%;
+}
+
+.goalheading {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.goalslider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 5px;
+}
+
+.goalinfo-title-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goalinfo-title-text-sub {
+  background-color: #ede5fa;
+  width: 100px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  align-items: center;
+}
+
+.goalinfo-title-text-sub input{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4900d0;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  text-align: right;
+}
+
+.goalinfo-title-text > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+  .goalinfo-title>h1{
+    
+    width:60%;
+    
+    font-size: 19px;
+  
+  }
+  .goalinfo-title>h2{
+    
+    
+    font-weight: 400;
+    font-size: 19px;
+  
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .goalinfo-title>h1{
+    
+    width:56%;
+    
+    font-size: 19px;
+  
+  }
+  .goalinfo-title>h2{
+    
+    
+    font-weight: 400;
+    font-size: 19px;
+  
+  }
+}
+
+
+
+@media screen and (max-width: 1030px) {
+  .goalinfomain>h1{
+    font-size: 22px;
+  }
+  .goalinfo-title>h1{
+    
+    width:51%;
+    
+    font-size: 18px;
+  
+  }
+  .goalinfo-title>h2{
+    
+    
+    font-weight: 400;
+    font-size: 18px;
+  
+  }
+
+  
+}
+
+@media screen and (max-width: 900px) {
+ .goal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+ }
+
+ .goalinput{
+    width: 90%;
+ }
+
+ .goalheading{
+   width: 100%;
+ }
+
+ .goalinfos{
+    width: 90%;
+ }
+  
+}
+
+@media screen and (max-width:600px) {
+  .goalinfos{
+    
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 470px) {
+
+  .goalheading{
+    font-size: 18px;
+  }
+  .goalinfomain>h1{
+    font-size: 18px;
+  }
+  
+  .goalinfomain>h2{
+    font-size: 20px;
+  }
+  
+  .goalinfomain>button{
+ 
+    font-size: 18px;
+    
+  }
+  .goalinfo-title>h1{
+    
+    width:46%;
+    
+    font-size: 18px;
+  
+  }
+  .goalinfo-title>h2{
+    
+    
+    font-weight: 400;
+    font-size: 18px;
+  
+  }
+ 
+ 
+
+  .goalinfo-title-text > h1 {
+ 
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .goalinfo-title>h1{
+    
+    width:42%;
+    
+    font-size: 18px;
+  
+  }
+  .goalinfo-title>h2{
+    
+    
+    font-weight: 400;
+    font-size: 18px;
+  
+  }
+  
+}
+
+@media screen and (max-width: 390px) {
+  .goalinfo-title>h1{
+    
+    width:38%;
+    
+    font-size: 17px;
+  
+  }
+  .goalinfo-title>h2{
+    
+    
+    font-weight: 400;
+    font-size: 17px;
+  
+  }
+  .goalheading{
+    font-size: 17px;
+  }
+  .goalinfomain>h1{
+    font-size: 15.5px;
+  }
+  
+  .goalinfomain>h2{
+    font-size: 18px;
+  }
+  
+  .goalinfomain>button{
+ 
+    font-size: 17px;
+    
+  }
+  
+  .goalinfo-title > h1 {
+   
+    font-size: 17px;
+  
+   
+  }
+  .goalinfo-title-text > h1 {
+ 
+    font-size: 15px;
+  }
+  .goalinfo-title > h1 {
+  
+    font-size: 15px;
+  
+    
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .goalinfo-title>h1{
+    
+    width:35%;
+    
+    font-size: 17px;
+  
+  }
+  .goalinfo-title>h2{
+    
+    
+    font-weight: 400;
+    font-size: 17px;
+  
+  }
+  
+}

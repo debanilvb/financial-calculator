@@ -1,0 +1,254 @@
+
+.debanil-lawri{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+
+}
+
+.hedarf{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 50px;
+}
+
+.emergencyfund {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Lato",sans-serif;
+}
+.chart {
+  background: rgb(39, 133, 106);
+  border-radius: 4px;
+  width: 40%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.piechart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: 5px auto; */
+ 
+  height: 170px;
+  padding:0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.piechart1{
+  width:45%;
+}
+
+.piechart-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:42%;
+  margin-top: 75px;
+ 
+  
+}
+
+
+.piechart-title-text-label1{
+  background-color: #F76300;
+  width:30px;
+  height: 20px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  
+  
+}
+.piechart-title-text-label2{
+  background-color: white;
+  width:30px;
+  height: 20px;
+  margin-bottom: -20px;
+  margin-right: 5px;
+  
+}
+
+.piechart-title-text{
+ 
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 25px; */
+  margin-top: 30px;
+  color: #ffffff;
+ 
+}
+
+
+
+
+
+.chartinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.chartinfo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.chartinfo-title > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 10px;
+
+  color: #ffffff;
+}
+
+.sliders {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  width: 50%;
+  height: 100%;
+  /* border: 5px solid yellow; */
+}
+
+.sliderheading {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #44475B;
+}
+
+.slider1,
+.slider2,
+.slider3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  height: 110px;
+  margin-top: 5px;
+}
+
+.chartinfo-title-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chartinfo-title-text-sub {
+  
+  
+  background: rgb(186, 249, 232);
+  width: 100px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: rgb(39, 133, 106);
+  border: none;
+  outline: none;
+  align-items: center;
+  /* border: 1px solid #E7ECF4; */
+}
+
+.chartinfo-title-text-sub input{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(39, 133, 106);
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  text-align: right;
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.chartinfo-title-text > h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  padding-right: 3%;
+  color: #44475B;
+}
+
+@media screen and (max-width:600px) {
+  .emergencyfund{
+    flex-direction: column;
+  }
+  .chart,.sliders{
+    width: 95%;
+  }
+  .chart{
+    border-radius: 0;
+  }
+
+  .sliderheading{
+    font-size: 17px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .slider1,
+  .slider2,
+  .slider3, .slider4 {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .chartinfo-title-text-sub {
+  
+    background-color: #ffffff;
+    width: 100px;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 8px 8px;
+  }
+  
+   
+.chartinfo-title-text > h1 {
+  
+  font-size: 15px;
+  padding-right: 3%;
+}
+}
+
+.MuiSlider-rail{
+  height: 4px!important;
+  background-color: #ecedef!important;
+  opacity: 1!important;
+}
+
+.MuiSlider-thumb{
+  width: 28px!important;
+  height: 28px!important;
+  background-color: #fff!important;
+  box-shadow: 0 3px 5px 2px rgba(0,0,0,0.1)!important;
+  margin-top: -13px!important;
+}
+
+.MuiSlider-track{
+  height: 4px!important;
+  background-color: #5367ff!important;
+
+}

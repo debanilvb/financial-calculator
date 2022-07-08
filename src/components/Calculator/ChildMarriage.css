@@ -1,0 +1,251 @@
+.marriage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.marriageinfos {
+  background: #604fb2;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 50%;
+  height: auto;
+}
+
+.marriageinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /* margin-top: 45px; */
+}
+
+.marriageinfo-title > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+width:60%;
+  color: #ffffff;
+}
+.marriageinfo-title > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.marriageinfo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.marriageinput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 46%;
+  height: 90%;
+}
+
+.marriageheading {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.input11,
+.input22,
+.input3,
+.input4,
+.input5,
+.input6,
+.input7,
+.input8,
+.input9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input11 > input,
+.input22 > input,
+.input3 > input,
+.input4 > input,
+.input5 > input,
+.input6 > input,
+.input7 > input,
+.input8 > input,
+.input9 > input {
+  /* border: none; */
+  /* outline: none; */
+  margin-right: 35px;
+  background-color: #ffffff;
+  width: 150px;
+  border-radius: 8px;
+  padding: 8px 11px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.marriageslider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 5px;
+}
+
+.marriageinfo-title-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:60%;
+}
+
+
+
+.marriageinfo-title-text > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1030px) {
+  .marriageinfoinfomain>h1{
+    font-size: 22px;
+  }
+  
+
+  
+}
+
+@media screen and (max-width: 900px) {
+ .marriageinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+ }
+ .marriageinput{
+    width: 90%;
+ }
+
+ .marriageinfos{
+    width: 90%;
+ }
+
+ .marriage{
+   display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .marriageinfoinput{
+    width: 90%;
+ }
+
+ .marriageinfoheading{
+   width: 100%;
+ }
+
+ .marriageinfoinfos{
+    width: 90%;
+ }
+  
+}
+
+.input11, .input2 {
+  
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+
+  .marriageheading{
+    font-size: 17px;
+  }
+  .marriageinfo-title-text>h1{
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .marriageinfoheading{
+    font-size: 18px;
+  }
+  .marriageinfoinfomain>h1{
+    font-size: 18px;
+  }
+  
+  .marriageinfoinfomain>h2{
+    font-size: 20px;
+  }
+  
+  .marriageinfoinfomain>button{
+ 
+    font-size: 18px;
+    
+  }
+  
+  .marriageinfoinfo-title > h1 {
+   
+    font-size: 18px;
+  
+   
+  }
+ 
+
+  .marriageinfoinfo-title-text > h1 {
+ 
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .marriageinfoheading{
+    font-size: 17px;
+  }
+  .marriageinfoinfomain>h1{
+    font-size: 15.5px;
+  }
+  
+  .marriageinfoinfomain>h2{
+    font-size: 18px;
+  }
+  
+  .marriageinfoinfomain>button{
+ 
+    font-size: 17px;
+    
+  }
+  
+  .marriageinfoinfo-title > h1 {
+   
+    font-size: 17px;
+  
+   
+  }
+  .marriageinfoinfo-title-text > h1 {
+ 
+    font-size: 15px;
+  }
+  .marriageinfoinfo-title > h1 {
+  
+    font-size: 15px;
+  
+    
+  }
+}

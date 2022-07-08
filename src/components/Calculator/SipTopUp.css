@@ -1,0 +1,329 @@
+.siptopup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .siptopupinfos {
+    
+    width: 44%;
+    height: auto;
+    
+  }
+  
+  .siptopupinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #604fb2;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    /* margin-top: 45px; */
+  }
+  
+  .siptopupinfomain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .siptopupinfomain>h1{
+    font-size: 25px;
+  }
+  
+  .siptopupinfomain>h2{
+    font-size: 23.5px;
+  }
+  
+  .siptopupinfomain>button{
+    outline: none;
+    border: none;
+  
+    height:40px;
+    background-color:#604fb2 ;
+    padding:4px 30px 4px 30px;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    
+  }
+  
+  .siptopupinfo-title > h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+ /* border:1px solid black; */
+    color: #ffffff;
+    width:61%;
+  }
+  .siptopupinfo-title > h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+ /* border:1px solid black; */
+    color: #ffffff;
+  }
+
+  
+  .siptopupinfo-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+     /* border:1px solid black; */
+    margin: auto;
+  }
+  
+  .siptopupinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 50%;
+    height: 90%;
+  }
+  
+  .siptopupheading {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .siptopupslider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    margin-top: 5px;
+  }
+  
+  .siptopupinfo-title-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .input1
+ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input1 > input {
+  border: none;
+  outline: none;
+  margin-right: 35px;
+  background-color: #ffffff;
+  width: 30px;
+  border-radius: 8px;
+  padding: 8px 11px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
+  .siptopupinfo-title-text-sub {
+   
+    background-color: #ede5fa;
+    width: 100px;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 500;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 8px 8px;
+    color: #4900d0;
+    border: none;
+    outline: none;
+    align-items: center;
+  }
+  
+  .siptopupinfo-title-text-sub input{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #4900d0;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    text-align: right;
+  }
+  .siptopupinfo-title-text > h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+ 
+  }
+
+  @media screen and (max-width: 1375px) {
+    .siptopupinfo-title > h1 {
+      width:55%;
+    }
+    
+  }
+
+  @media screen and (max-width: 1200px) {
+    .siptopupinfo-title > h1 {
+      width:50%;
+      font-size: 19px;
+    }
+    .siptopupinfo-title > h2 {
+   
+      font-size: 19px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .siptopupinfomain>h1{
+      font-size: 22px;
+    }
+    .siptopupinfo-title > h1 {
+      width:45%;
+      font-size: 18px;
+    }
+    .siptopupinfo-title > h2 {
+   
+      font-size: 18px;
+    }
+    
+  
+    
+  }
+  
+  @media screen and (max-width: 900px) {
+   .siptopup{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      /* border: 1px solid black; */
+  
+   }
+  
+   .siptopupinput{
+      width: 90%;
+   }
+  
+   .siptopupheading{
+     width: 100%;
+   }
+  
+   .siptopupinfos{
+      width: 90%;
+   }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .siptopupinfo{
+      border-radius: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 470px) {
+    .siptopupheading{
+      font-size: 18px;
+    }
+    .siptopupinfomain>h1{
+      font-size: 16px;
+    }
+    
+    .siptopupinfomain>h2{
+      font-size: 18px;
+    }
+    
+    .siptopupinfomain>button{
+   
+      font-size: 18px;
+      
+    }
+    
+    .siptopupinfo-title > h1 {
+     
+      font-size: 18px;
+    
+     
+    }
+   
+  
+    .siptopupinfo-title-text > h1 {
+   
+      font-size: 18px;
+    }
+    .siptopupinfo-title > h1 {
+      width:40%;
+      font-size: 17px;
+    }
+    .siptopupinfo-title > h2 {
+   
+      font-size: 17px;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .siptopupinfo-title > h1 {
+      
+      font-size: 16px;
+    }
+    .siptopupinfo-title > h2 {
+   
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    .siptopupheading{
+      font-size: 17px;
+    }
+    .siptopupinfomain>h1{
+      font-size: 15.5px;
+    }
+    
+    .siptopupinfomain>h2{
+      font-size: 18px;
+    }
+    
+    .siptopupinfomain>button{
+   
+      font-size: 17px;
+      
+    }
+    
+    .siptopupinfo-title > h1 {
+     
+      font-size: 17px;
+    
+     
+    }
+    .siptopupinfo-title-text > h1 {
+   
+      font-size: 15px;
+    }
+    .siptopupinfo-title > h1 {
+    
+      font-size: 15px;
+    
+      
+    }
+    .siptopupinfo-title > h1 {
+     
+      font-size: 16px;
+    }
+    .siptopupinfo-title > h2 {
+   
+      font-size: 16px;
+    }
+  }
