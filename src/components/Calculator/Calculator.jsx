@@ -89,44 +89,60 @@ function Calculator() {
   return (
     <div className="calculator-parent">
       <div className="calculator-heading1">
-        Plan your Investment
+        Calculators 
       </div>
       <div className="pill-nav">
         <Link to="/emergencyfund-calculator"
           className="active-pill"
           >
           <h3>Emergency Fund Calculator</h3>
+          <img src="/images/icons/cal1.svg" alt="" />
         </Link>
         <Link
            to="/retirement-calculator"
         >
-          <h3>Retirement Calculator</h3>
+          <h3>Retirement <br /> Calculator</h3>
         </Link>
         <Link to="/goal-calculator">
           <h3>Goal <br /> Calculator</h3>
+          <img src="/images/icons/cal2.svg" alt="" />
         </Link>
         <Link to="/childmarriage-calculator">
          <h3> Child Marriage Calculator</h3>
+         <img src="/images/icons/cal3.svg" alt="" />
         </Link>
         <Link to="/childeducation-calculator">
           <h3>Child Education Calculator</h3>
+          <img src="/images/icons/cal4.svg" alt="" />
         </Link>
         <Link to="/sip-calculator">
           <h3>SIP <br /> Calculator</h3>
+          {/* <img src="/images/icons/cal5.svg" alt="" /> */}
         </Link>
         <Link to="/emi-calculator">
          <h3> EMI <br /> Calculator</h3>
         </Link>
         <Link to="/siptopup-calculator">
          <h3> SIP Top Up Calculator</h3>
+         
         </Link>
 
-        <Link to="/siptopup-calculator">
+        <Link to="/fd-calculator">
          <h3> FD <br /> Calculator</h3>
+         <img src="/images/icons/cal8.svg" alt="" />
+        </Link>
+
+        <Link to="/simpleinterest-calculator">
+         <h3> Simple Interest  <br /> Calculator</h3>
+         <img src="/images/icons/cal11.svg" alt="" />
         </Link>
 
         <Link to="/siptopup-calculator">
-         <h3> Simple Interest  <br /> Calculator</h3>
+         <h3> EPF  <br /> Calculator</h3>
+        </Link>
+
+        <Link to="/siptopup-calculator">
+         <h3> PPF   <br /> Calculator</h3>
         </Link>
 
       </div>

@@ -23,8 +23,9 @@ console.log(r,n,totalamount);
     setValue3(newValue);
   };
   return (
-    <>
-      {/* <div>hello</div> */}
+    
+      
+        <div className="debanil-lawri">
       <h1 className="hedarf">EMI Calculator</h1>
       <div className="emi">
      
@@ -126,7 +127,7 @@ console.log(r,n,totalamount);
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

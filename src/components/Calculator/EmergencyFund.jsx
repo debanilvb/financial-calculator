@@ -74,18 +74,8 @@ const EmergencyFund = () => {
     <div className="debanil-lawri">
       <h1 className="hedarf">Emergency Fund Calculator</h1>
       <div className="emergencyfund">
-        <div className="chart">
-          <div className="chartinfo">
-            <div className="chartinfo-title">
-              <h1>Emergency Fund you need</h1>
-              <h1> &#8377;&nbsp;{format(neededEmergencyFund)}</h1>
-            </div>
-            <div className="chartinfo-title">
-              <h1>Monthly Investment Required</h1>
-              <h1> &#8377;&nbsp;{format(monthlyInvestment)}</h1>
-            </div>
-          </div>
-        </div>
+        
+
         <div className="sliders">
           <div className="sliderheading">
             Systematic Investment Plan (SIP) allows you to make small investment at regular
@@ -176,6 +166,20 @@ const EmergencyFund = () => {
             </Box>
           </div>
         </div>
+
+        <div className="chart">
+          <div className="chartinfo">
+            <div className="chartinfo-title">
+              <h1>Emergency Fund you need</h1>
+              <h1> &#8377;&nbsp;{format(neededEmergencyFund)}</h1>
+            </div>
+            <div className="chartinfo-title">
+              <h1>Monthly Investment Required</h1>
+              <h1> &#8377;&nbsp;{format(monthlyInvestment)}</h1>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   );

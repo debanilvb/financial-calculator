@@ -12,6 +12,8 @@ import ChildEducation from './components/Calculator/ChildEducation';
 import WealthSip from './components/Calculator/WealthSip';
 import EMI from './components/Calculator/EMI';
 import SipTopUp from './components/Calculator/SipTopUp';
+import FD from './components/Calculator/FD';
+import SimpleInterest from './components/Calculator/SimpleInterest';
  
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route exact path="/sip-calculator" element={<WealthSip />}></Route>
         <Route exact path="/emi-calculator" element={<EMI />}></Route>
         <Route exact path="/siptopup-calculator" element={<SipTopUp />}></Route>
+        <Route exact path="/fd-calculator" element={<FD />}></Route>
+        <Route exact path="/simpleinterest-calculator" element={<SimpleInterest />}></Route>
       
 
       </Route>

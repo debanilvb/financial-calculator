@@ -6,7 +6,7 @@ import {format} from "indian-number-format"
 
 
 const WealthSip = () => {
-  const [value1, setValue1] = useState(1000);
+  const [value1, setValue1] = useState(5000);
   const [value2, setValue2] = useState(12);
   const [value3, setValue3] = useState(1);
 
@@ -25,8 +25,7 @@ const WealthSip = () => {
     setValue3(newValue);
   };
   return (
-    <>
-      {/* <div>hello</div> */}
+    <div className="debanil-lawri">
       <h1 className="hedarf">SIP  Calculator</h1>
       <div className="wealthsip">
         
@@ -51,7 +50,7 @@ const WealthSip = () => {
                 value={value1}
                 onChange={handleChange1}
                
-                max={500000}
+                max={50000}
                 defaultValue={25000}
               />
             </Box>
@@ -120,7 +119,7 @@ const WealthSip = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

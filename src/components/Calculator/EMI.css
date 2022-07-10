@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  font-family: "Lato",sans-serif;
 }
 
 .emiinfos {
@@ -17,7 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background: #604fb2;
+  background-color: rgb(175, 40, 150);
   border-radius: 4px;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -34,10 +35,12 @@
 
 .emiinfomain>h1{
   font-size: 25px;
+  color: #fff;
 }
 
 .emiinfomain>h2{
   font-size: 23.5px;
+  color: #fff;
 }
 
 .emiinfomain>button{
@@ -45,7 +48,7 @@
   border: none;
   width: 140px;
   height:40px;
-  background-color:#604fb2 ;
+  background-color: rgb(175, 40, 150);
   padding:4px 5px 4px 5px;
   border-radius: 6px;
   color: white;
@@ -81,6 +84,7 @@
 .emiheading {
   margin-bottom: 20px;
   font-size: 22px;
+  color: #fff;
 }
 
 .emislider {
@@ -99,7 +103,7 @@
 
 .emiinfo-title-text-sub {
 
-  background-color: #ede5fa;
+  background-color: rgb(242, 198, 234);
   width: 100px;
   display: flex;
   font-size: 1.125rem;
@@ -107,7 +111,7 @@
   justify-content: center;
   border-radius: 4px;
   padding: 8px 8px;
-  color: #4900d0;
+  color: rgb(175, 40, 150);
   border: none;
   outline: none;
   align-items: center;
@@ -116,7 +120,7 @@
 .emiinfo-title-text-sub input{
   font-size: 1.125rem;
   font-weight: 500;
-  color: #4900d0;
+  color: rgb(175, 40, 150);
   border: none;
   outline: none;
   background: transparent;
@@ -129,6 +133,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  color: #fff;
 }
 
 @media screen and (max-width: 1030px) {

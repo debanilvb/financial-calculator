@@ -63,6 +63,7 @@
 .retirementheading {
   margin-bottom: 20px;
   font-size: 22px;
+  color: #ffffff;
 }
 
 .input11,
@@ -87,7 +88,7 @@
 .retirementradiobutton>div{
   display: flex;
   /* border: 1px solid black; */
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
 
 }
@@ -95,6 +96,8 @@
   width:80%;
   /* border: 1px solid blue; */
   margin: 0;
+  margin-left: 10px;
+  color: #ffffff;
 
 }
 .retirementradiobutton>div>input{
@@ -169,6 +172,7 @@ input::-webkit-inner-spin-button {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  color: #ffffff;
 }
 
 
@@ -240,9 +244,10 @@ input::-webkit-inner-spin-button {
     font-size: 17px;
   }
   .retirementinfos{
-    border-radius: 0;
+    border-radius: 4px;
     padding-top: 20px;
     padding-bottom: 15px;
+    margin-top: 30px;
   }
   .retirementinfo-title-text>h1{
     font-size: 16px;
@@ -259,7 +264,7 @@ input::-webkit-inner-spin-button {
   }
   .retirementinfo-title > h1 {
     
-    font-size: 18px;
+    font-size: 16px;
   width:36%;
  
   }

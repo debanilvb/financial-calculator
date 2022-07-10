@@ -1,12 +1,23 @@
 .marriage {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  font-family: "Lato", sans-serif;   
 }
 
 .marriageinfos {
-  background: #604fb2;
+  background: rgb(232, 17, 91);
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 50%;
+  height: auto;
+}
+
+.educationinfos {
+  background-color: rgb(13, 115, 236);
   border-radius: 4px;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -51,13 +62,15 @@ width:60%;
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
-  width: 46%;
-  height: 90%;
+  width: 50%;
+  margin-bottom: 20px;
+  /* height: 90%; */
 }
 
 .marriageheading {
   margin-bottom: 20px;
   font-size: 22px;
+  color: #fff;
 }
 
 .input11,
@@ -112,12 +125,94 @@ input::-webkit-inner-spin-button {
 }
 
 
+.marrigeinfo-title-text-sub {
+
+  background-color: rgb(244, 175, 199);
+  width: 100px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: rgb(245, 197, 214);
+  border: none;
+  outline: none;
+  align-items: center;
+}
+
+.marrigeinfo-title-text-sub input{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(232, 17, 91);
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  text-align: right;
+}
+
+.marrigeinfo-title-text-sub span {
+  color: rgb(232, 17, 91);
+  font-weight: 500;
+}
+
+
+
+.educationinfo-title-text-sub {
+
+  background-color: rgb(171, 204, 245);
+  width: 100px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  color: rgb(245, 197, 214);
+  border: none;
+  outline: none;
+  align-items: center;
+}
+
+.educationinfo-title-text-sub input{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(13, 115, 236);
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  text-align: right;
+}
+
+.educationinfo-title-text-sub span {
+  color: rgb(13, 115, 236);
+  font-weight: 500;
+}
 
 .marriageinfo-title-text > h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+}
+
+ 
+.marrigeslider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 5px;
+}
+
+.educationslider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 1030px) {

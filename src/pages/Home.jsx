@@ -19,7 +19,7 @@ function Home() {
       <ScrollToTop />
       {/* <Navbar /> */}
       <Calculator />
-      {/* <Footer /> */}
+      <Footer />
       
     </div>
   );

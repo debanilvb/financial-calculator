@@ -12,13 +12,15 @@
   font-size: 32px;
   font-weight: 700;
   font-family: "Lato", sans-serif;
+  color: #fff;
   margin-bottom: 50px;
 }
 
 .emergencyfund {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   height: 100%;
   margin-top: 30px;
@@ -28,9 +30,9 @@
 .chart {
   background: rgb(39, 133, 106);
   border-radius: 4px;
-  width: 40%;
+  width: 50%;
   height: auto;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
 }
 .piechart {
@@ -132,7 +134,7 @@
 .sliderheading {
   margin-bottom: 20px;
   font-size: 20px;
-  color: #44475B;
+  color: #fff;
 }
 
 .slider1,
@@ -182,16 +184,30 @@
   font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
+.chartinfo-title-text-sub span{
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
 .chartinfo-title-text > h1 {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   padding-right: 3%;
-  color: #44475B;
+  color: #fff;
 }
 
 @media screen and (max-width:600px) {
+
+  .debanil-lawri{
+    margin-top: 80px;
+  }
+  .hedarf{
+    font-size: 26px;
+    text-align: left;
+    padding-left: 5%;
+  }
   .emergencyfund{
     flex-direction: column;
   }
@@ -199,7 +215,7 @@
     width: 95%;
   }
   .chart{
-    border-radius: 0;
+    border-radius: 4px;
   }
 
   .sliderheading{
@@ -225,6 +241,9 @@
     padding: 8px 8px;
   }
   
+  .chartinfo-title > h1{
+    font-size: 16px;
+  }
    
 .chartinfo-title-text > h1 {
   
@@ -251,4 +270,31 @@
   height: 4px!important;
   background-color: #5367ff!important;
 
+}
+.goalslider .MuiSlider-track{
+  background-color: rgb(141, 103, 171)!important;
+}
+
+.slider1 .MuiSlider-track, .slider2 .MuiSlider-track, .slider3 .MuiSlider-track, .slider4 .MuiSlider-track{
+  background-color: rgb(39, 133, 106)!important;
+}
+
+.marrigeslider .MuiSlider-track{
+  background-color: rgb(232, 17, 91)!important;
+}
+
+.educationslider .MuiSlider-track{
+  background-color: rgb(13, 115, 236)!important;
+}
+
+.wealthsipslider .MuiSlider-track{
+  background-color: rgb(20, 138, 8)!important;
+}
+
+.emislider .MuiSlider-track{
+   background-color: rgb(175, 40, 150)!important;
+}
+
+.siptopupslider .MuiSlider-track{
+  background-color: rgb(80, 155, 245)!important;
 }

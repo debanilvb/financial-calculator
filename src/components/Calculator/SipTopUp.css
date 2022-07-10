@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    font-family: "Lato",sans-serif;
   }
   
   .siptopupinfos {
@@ -16,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: #604fb2;
+    background-color: rgb(80, 155, 245);
     border-radius: 4px;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -33,10 +34,12 @@
   
   .siptopupinfomain>h1{
     font-size: 25px;
+    color: #ffffff;
   }
   
   .siptopupinfomain>h2{
     font-size: 23.5px;
+    color: #ffffff;
   }
   
   .siptopupinfomain>button{
@@ -44,7 +47,7 @@
     border: none;
   
     height:40px;
-    background-color:#604fb2 ;
+    background-color: rgb(80, 155, 245);
     padding:4px 30px 4px 30px;
     border-radius: 6px;
     color: white;
@@ -92,6 +95,7 @@
   .siptopupheading {
     margin-bottom: 20px;
     font-size: 22px;
+    color: #fff;
   }
   
   .siptopupslider {
@@ -132,7 +136,7 @@ input::-webkit-inner-spin-button {
   
   .siptopupinfo-title-text-sub {
    
-    background-color: #ede5fa;
+    background-color: rgb(214, 230, 248);
     width: 100px;
     display: flex;
     font-size: 1.125rem;
@@ -140,7 +144,7 @@ input::-webkit-inner-spin-button {
     justify-content: center;
     border-radius: 4px;
     padding: 8px 8px;
-    color: #4900d0;
+    color: rgb(80, 155, 245);
     border: none;
     outline: none;
     align-items: center;
@@ -149,7 +153,7 @@ input::-webkit-inner-spin-button {
   .siptopupinfo-title-text-sub input{
     font-size: 1.125rem;
     font-weight: 500;
-    color: #4900d0;
+    color: rgb(80, 155, 245);
     border: none;
     outline: none;
     background: transparent;
@@ -161,6 +165,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    color: #ffffff;
  
   }
 

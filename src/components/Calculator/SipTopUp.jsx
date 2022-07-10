@@ -6,10 +6,10 @@ import { format } from "indian-number-format";
 
 
 const SipTopUp = () => {
-    const [value1, setValue1] = useState(1000);
+    const [value1, setValue1] = useState(50000);
     const [value2, setValue2] = useState(12);
-    const [value3, setValue3] = useState(1);
-    const [value4, setValue4] = useState(1);
+    const [value3, setValue3] = useState(5);
+    const [value4, setValue4] = useState(3);
    
     let n=value3*12;
     let i=value2/1200;
@@ -31,8 +31,7 @@ const SipTopUp = () => {
       setValue4(newValue);
     };  
     return (
-      <>
-        {/* <div>hello</div> */}
+      <div className="debanil-lawri">
         <h1 className="hedarf"> SIP Top Calculator</h1>
         <div className="siptopup">
          
@@ -148,7 +147,7 @@ const SipTopUp = () => {
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
 }
 

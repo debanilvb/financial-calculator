@@ -7,10 +7,10 @@ import {format} from "indian-number-format"
 // import Box from "@material-ui/core/Box";
 
 const ChildMarriage = () => {
-  const [currentCost, setCurrentCost ] = useState(100000)
+  const [currentCost, setCurrentCost ] = useState(500000)
   const [inflation, setInflation] = useState(1);
-  const [currentAge, setCurrentAge] = useState(0);
-  const [requiredAge, setRequiredAge] = useState(1);
+  const [currentAge, setCurrentAge] = useState(10);
+  const [requiredAge, setRequiredAge] = useState(25);
   const [returnRate, setReturnRate] = useState(1);
   
     //output variables
@@ -54,7 +54,7 @@ const ChildMarriage = () => {
   [currentAge, currentCost, inflation, requiredAge, returnRate])
 
   return (
-    <>
+    <div className="debanil-lawri">
      <h1 className="hedarf">Child Marriage Calculator</h1>
       {/* <div>hello</div> */}
       <div className="marriage">
@@ -64,10 +64,10 @@ const ChildMarriage = () => {
             Systematic Investment Plan (SIP) allows you to make small investment at regular
             intervals to help you achieve your dreams.
           </div>
-          <div className="goalslider">
+          <div className="marrigeslider">
             <div className="goalinfo-title-text">
               <h1>How much do you plan to spend on your child marriage</h1>
-              <div className="goalinfo-title-text-sub"> 
+              <div className="marrigeinfo-title-text-sub"> 
               <span>&#8377;</span> 
               <input type="number" placeholder="0" onChange={(e) => setCurrentCost(e.target.value)} value={currentCost} />
               </div>
@@ -82,10 +82,10 @@ const ChildMarriage = () => {
               />
             </Box>
           </div>
-          <div className="goalslider">
+          <div className="marrigeslider">
             <div className="goalinfo-title-text">
               <h1>Inflation Rate</h1>
-              <div className="goalinfo-title-text-sub">
+              <div className="marrigeinfo-title-text-sub">
               
               <input type="number" placeholder="0" onChange={(e) => setInflation(e.target.value)} value={inflation} />
               <span>% </span> 
@@ -101,10 +101,10 @@ const ChildMarriage = () => {
               />
             </Box>
           </div>
-          <div className="goalslider">
+          <div className="marrigeslider">
             <div className="goalinfo-title-text">
               <h1>Age</h1>
-              <div className="goalinfo-title-text-sub">
+              <div className="marrigeinfo-title-text-sub">
               <input type="number" placeholder="0" onChange={(e) => setCurrentAge(e.target.value)} value={currentAge} />                
                  
               <span>&nbsp;Y</span>
@@ -120,10 +120,10 @@ const ChildMarriage = () => {
               />
             </Box>
           </div>
-          <div className="goalslider">
+          <div className="marrigeslider">
             <div className="goalinfo-title-text">
               <h1>Expected Age of marriage of your child</h1>
-              <div className="goalinfo-title-text-sub">
+              <div className="marrigeinfo-title-text-sub">
                  <input type="number" placeholder="0" onChange={(e) => setRequiredAge(e.target.value)} value={requiredAge} />
                  
                 <span> &nbsp;Y </span>
@@ -139,10 +139,10 @@ const ChildMarriage = () => {
               />
             </Box>
           </div>
-          <div className="goalslider">
+          <div className="marrigeslider">
             <div className="goalinfo-title-text">
               <h1>Expected Investment Returns</h1>
-              <div className="goalinfo-title-text-sub"> 
+              <div className="marrigeinfo-title-text-sub"> 
               <input type="number" placeholder="0" onChange={(e) => setReturnRate(e.target.value)} value={returnRate} />
               <span>&nbsp;%</span>
               </div>
@@ -177,7 +177,7 @@ const ChildMarriage = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
